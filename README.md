@@ -1,8 +1,8 @@
-# Embedded EV Crash Detection & Safety System
+# EV Crash Detection and safety system using PIC16F877A
 
 This project is a hardware-based embedded system designed to detect potential electric vehicle (EV) crashes and ensure battery and motor health using various sensors. Built using the PIC16F877A microcontroller, this safety system performs voltage, temperature, and motor health checks to enhance EV safety.
 
-## 🚗 Project Overview
+## Project Overview
 
 The system monitors:
 
@@ -17,7 +17,7 @@ When the **crash button is pressed**, the system checks:
 2. If values exceed safe thresholds, it triggers an alert and stops the vehicle
 3. If battery is healthy, it tests the motor sequentially and checks the current consumption to identify faults
 
-## 📦 Components Used
+## Components Used
 
 | Component           | Purpose                        |
 | ------------------- | ------------------------------ |
@@ -32,7 +32,7 @@ When the **crash button is pressed**, the system checks:
 | Buzzer              | Audio alert on fault detection |
 | 12V Battery         | Power supply for motors        |
 
-## 🔧 Features
+## Features
 
 - Real-time battery health monitoring
 - Motor functionality testing
@@ -40,7 +40,7 @@ When the **crash button is pressed**, the system checks:
 - LCD user interface
 - Fault indication via buzzer
 
-## 🧠 How it Works
+## How it Works
 
 1. **Crash Detected (Button Pressed)**
 
@@ -54,13 +54,11 @@ When the **crash button is pressed**, the system checks:
    - Measure current using ACS712
    - If current < or > threshold → `Motor Fault` (buzzer + LCD alert)
 
-## 📁 Repository Contents
+## Repository Contents
 
-- `schematic.pdf` – Circuit schematic
-- `project_report.docx` – Full documentation
-- `code.c` – Embedded C code for PIC16F877A
-- `test_videos/` – Demo and testing videos
-- `sensor_data.csv` – Recorded sensor data during testing
+- `Documentation` – Circuit schematic,Bill of materials , Project Report
+- `code` – Embedded C code for PIC16F877A
+- `videos` – Demo and testing videos
 - `README.md` – Project description (this file)
 
 Built with ❤️ by Vidhyarth
