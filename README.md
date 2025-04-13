@@ -61,5 +61,5 @@ When the **crash button is pressed**, the system checks:
 - `videos` – Demo and testing videos
 - `README.md` – Project description (this file)
 
-Built with ❤️ by Vidhyarth
+Built by Vidhyarth
 
