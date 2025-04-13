@@ -6,7 +6,7 @@ This project is a hardware-based embedded system designed to detect potential el
 
 The system monitors:
 
-- **Battery Voltage** using a **ZMPT101B sensor**
+- **Battery Voltage** using a **DC Voltage sensor**
 - **Battery Temperature** using an **LM35 temperature sensor**
 - **Motor Current** using an **ACS712 sensor**
 - **Motor control and testing** using an **L293D Motor Driver**
@@ -23,14 +23,14 @@ When the **crash button is pressed**, the system checks:
 | ------------------- | ------------------------------ |
 | PIC16F877A          | Main microcontroller           |
 | 0-25 Voltage Sensor | Voltage sensing                |
-| LM35                | Temperature sensing            |
-| ACS712              | Current sensing                |
+| LM35D               | Temperature sensing            |
+| ACS712A-5A          | Current sensing                |
 | L293D               | Dual motor driver              |
-| 12V DC Motor        | Simulating EV wheels           |
+| DC Motor            | Simulating EV wheels           |
 | 16x2 LCD            | Status display                 |
 | Pushbutton          | Simulates crash detection      |
 | Buzzer              | Audio alert on fault detection |
-| 12V Battery         | Power supply for motors        |
+| 9V Battery          | Power supply for motors        |
 
 ## Features
 
