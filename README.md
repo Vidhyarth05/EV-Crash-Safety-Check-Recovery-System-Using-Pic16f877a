@@ -60,6 +60,6 @@ When the **crash button is pressed**, the system checks:
 - `code` – Embedded C code for PIC16F877A
 - `videos` – Demo and testing videos
 - `README.md` – Project description (this file)
-
+.
 
 
